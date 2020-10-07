@@ -38,6 +38,7 @@ stages:
         repository: $(imageRepository)
         dockerfile: $(dockerfilePath)
         containerRegistry: $(dockerRegistryServiceConnection)
+        webgoat_version: v8.0.0-SNAPSHOT
         tags: |
           $(tag)
           
